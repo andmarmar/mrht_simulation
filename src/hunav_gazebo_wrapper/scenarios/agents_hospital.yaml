@@ -1,0 +1,136 @@
+hunav_loader:
+  ros__parameters:
+    map: hospital
+    publish_people: true
+    agents:
+      - human_1
+      - human_2
+      - human_3
+      - human_4
+    human_1:
+      id: 1
+      skin: 0
+      group_id: -1
+      max_vel: 1.2
+      radius: 0.4
+      behavior: 
+        type: 2 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        configuration: 1 # def: 0, custom:1, random_normal:2, random_uniform:3
+        duration: 30.0  # seg
+        once: true
+        vel: 0.8
+        dist: 1.5
+        goal_force_factor: 10.0
+        obstacle_force_factor: 12.0
+        social_force_factor: 12.0
+        other_force_factor: 12.0
+      init_pose:
+        x: -10.000000
+        y: -26.200000
+        z: 1.250000
+        h: 0.0
+      goal_radius: 0.3
+      cyclic_goals: false
+      goals:
+        - g0
+
+      g0:
+        x: -10.000000
+        y: -26.200000
+        h: 0.0
+
+    human_2:
+      id: 2
+      skin: 2
+      group_id: -1
+      max_vel: 1.2
+      radius: 0.4
+      behavior: 
+        type: 2 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        configuration: 1 # def: 0, custom:1, random_normal:2, random_uniform:3
+        duration: 30.0  # seg
+        once: true
+        vel: 0.8
+        dist: 1.5
+        goal_force_factor: 10.0
+        obstacle_force_factor: 12.0
+        social_force_factor: 12.0
+        other_force_factor: 12.0
+      init_pose:
+        x: -7.800000
+        y: -27.600000
+        z: 1.250000
+        h: 0.0
+      goal_radius: 0.3
+      cyclic_goals: false
+      goals:
+        - g0
+        
+      g0:
+        x: -7.800000
+        y: -27.600000
+        h: 0.0
+
+    human_3:
+      id: 3
+      skin: 3
+      group_id: -1
+      max_vel: 1.2
+      radius: 0.4
+      behavior: 
+        type: 2 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        configuration: 1 # def: 0, custom:1, random_normal:2, random_uniform:3
+        duration: 30.0  # seg
+        once: true
+        vel: 0.8
+        dist: 1.5
+        goal_force_factor: 10.0
+        obstacle_force_factor: 12.0
+        social_force_factor: 12.0
+        other_force_factor: 12.0
+      init_pose:
+        x: -8.000000
+        y: -30.000000
+        z: 1.250000
+        h: 0.0
+      goal_radius: 0.3
+      cyclic_goals: false
+      goals:
+        - g0
+        
+      g0:
+        x: -8.000000
+        y: -30.000000
+        h: 0.0
+
+    human_4:
+      id: 4
+      skin: 4
+      group_id: -1
+      max_vel: 1.2
+      radius: 0.4
+      behavior: 
+        type: 2 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        configuration: 1 # def: 0, custom:1, random_normal:2, random_uniform:3
+        duration: 30.0  # seg
+        once: true
+        vel: 0.8
+        dist: 1.5
+        goal_force_factor: 10.0
+        obstacle_force_factor: 12.0
+        social_force_factor: 12.0
+        other_force_factor: 12.0
+      init_pose:
+        x: -6.830000
+        y: -25.100000
+        z: 1.250000
+        h: 0.0
+      goal_radius: 0.3
+      cyclic_goals: false
+      goals:
+        - g0
+        
+      g0:
+        x: -6.830000
+        y: -25.100000
+        h: 0.0
