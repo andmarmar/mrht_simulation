@@ -301,6 +301,15 @@ def generate_launch_description():
         output='screen'
     )
 
+    rviz_config_path = os.path.join(hospital_robot, 'config', 'rviz_config.rviz')
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', rviz_config_path]
+    )
+
 
 
     # Launch 
@@ -342,6 +351,7 @@ def generate_launch_description():
     ld.add_action(hunav_evaluator_node)
     ld.add_action(gz_launch_event)
     ld.add_action(static_tf_node)
+    ld.add_action(rviz_node)
 
     # Robots
 

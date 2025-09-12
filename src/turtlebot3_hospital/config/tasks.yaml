@@ -4,32 +4,29 @@ tasks:
   - {id: "t3", x: 1.46, y: 13.4, theta: 0.0}    #  Entrada Punto 2
   - {id: "t4", x: -3.5, y: 13.1, theta: 0.0}    #  Entrada Punto 3
   - {id: "t5", x: 0.0, y: 8.87, theta: 0.0}     #  Mostrador delante 
-  - {id: "t6", x: 10.5, y: 10.5, theta: 0.0}    #  Sala camilla pequeña 1  
-  - {id: "t7", x: 10.5, y: 5.68, theta: 0.0}    #  Sala camilla pequeña 2
-  - {id: "t8", x: 1.82, y: 2.81, theta: 0.0}    #  Mostrador detras
-  - {id: "t9", x: -1.52, y: 2.91, theta: 0.0}   #  Mostrados detras 2
-  - {id: "t10", x: 1.48, y: -4.4, theta: -1.57}   #  Sala Oficina 1 Punto 1
-  - {id: "t11", x: 1.18, y: -2.05, theta: -1.57}  #  Sala Oficina 1 Punto 2
-  - {id: "t12", x: -1.27, y: -4.64, theta: -1.57} #  Sala Oficina 2 Punto 1
-  - {id: "t13", x: -1.0, y: -1.75, theta: -1.57}  #  Sala Oficina 2 Punto 2
-  - {id: "t14", x: 8.97, y: 1.53, theta: 0.0}   #  Sala camilla grande 1 Punto 1
-  - {id: "t15", x: 9.0, y: -6.0, theta: 0.0}    #  Sala camilla grande 1 Punto 2
-  - {id: "t16", x: 7.2, y: 0.4, theta: 0.0}     #  Baño camilla grande 1
-  - {id: "t17", x: 9.47, y: -22.4, theta: 0.0}   #  Sala camilla grande 2 Punto 1
-  - {id: "t18", x: 1.89, y: -11.2, theta: -1.57}  #  Baño intermedio 1
-  - {id: "t19", x: -1.48, y: -11.5, theta: -1.57} #  Baño intermedio 2
-  - {id: "t20", x: 2.29, y: -17.9, theta: -1.57}  #  Sala operaciones 1
-  - {id: "t21", x: -2.42, y: -16.6, theta: -1.57} #  Sala operaciones 2
-  - {id: "t22", x: 8.13, y: -26.7, theta: 0.0}  #  Sala camilla grande 3 Punto 1
-  - {id: "t23", x: -1.48, y: 26.6, theta: 0.0}  #  Sala camilla grande 3 Punto 2
-  - {id: "t24", x: 10.6, y: -33.0, theta: 0.0}  #  Pasillo final Punto 1
-  - {id: "t25", x: -10.3, y: -33.0, theta: 3.14} #  Pasillo final Punto 2
-  - {id: "t26", x: -9.3, y: -22.5, theta: 3.14} #  Sala camilla grande 4 Punto 1
-  - {id: "t27", x: -8.75, y: 0.0, theta: 3.14}   #  Sala camilla grande 5 Punto 1
-  - {id: "t28", x: -9.0, y: -5.25, theta: 3.14}  #  Sala camilla grande 5 Punto 2
-  - {id: "t29", x: -10.0, y: 13.0, theta: 3.14}  #  Almacen Punto 1
-  - {id: "t30", x: -7.5, y: 15.5, theta: 3.14}   #  Almacen Punto 2
-  - {id: "t31", x: -3.18, y: -3.41, theta: 3.14}   # Pasillo central Punto 1
+  - {id: "t6", x: 9.68, y: 10.9, theta: 0.0}    #  Sala camilla pequeña 1  
+  - {id: "t7", x: 9.48, y: 5.0, theta: 0.0}    #  Sala camilla pequeña 2
+  - {id: "t8", x: 0, y: 2.25, theta: 0.0}    #  Mostrador detras
+  - {id: "t9", x: 1.48, y: -3.6, theta: -1.57}   #  Sala Oficina 1 Punto 1
+  - {id: "t10", x: 1.18, y: -2.05, theta: -1.57}  #  Sala Oficina 1 Punto 2
+  - {id: "t11", x: -1.59, y: -3.54, theta: -1.57} #  Sala Oficina 2 Punto 1
+  - {id: "t12", x: -1.0, y: -1.75, theta: -1.57}  #  Sala Oficina 2 Punto 2
+  - {id: "t13", x: 8.97, y: 1.68, theta: 0.0}   #  Sala camilla grande 1 Punto 1
+  - {id: "t14", x: 8.9, y: -8.48, theta: 0.0}    #  Sala camilla grande 1 Punto 2
+  - {id: "t15", x: 8.7, y: -22.4, theta: 0.0}   #  Sala camilla grande 2 Punto 1
+  - {id: "t16", x: 1.89, y: -11.2, theta: -1.57}  #  Baño intermedio 1
+  - {id: "t17", x: -1.48, y: -11.5, theta: -1.57} #  Baño intermedio 2
+  - {id: "t18", x: 2.9, y: -16.4, theta: -1.57}  #  Sala operaciones 1
+  - {id: "t19", x: -2.55, y: -16.1, theta: -1.57} #  Sala operaciones 2
+  - {id: "t20", x: 8.13, y: -27.0, theta: 0.0}  #  Sala camilla grande 3 Punto 1
+  - {id: "t21", x: 10.6, y: -33.0, theta: 0.0}  #  Pasillo final Punto 1
+  - {id: "t22", x: -10.3, y: -33.0, theta: 3.14} #  Pasillo final Punto 2
+  - {id: "t23", x: -8.9, y: -19.1, theta: 3.14} #  Sala camilla grande 4 Punto 1
+  - {id: "t24", x: -8.38, y: -5.0, theta: 3.14}   #  Sala camilla grande 5 Punto 1
+  - {id: "t25", x: -11.2, y: -9.0, theta: 3.14}  #  Sala camilla grande 5 Punto 2
+  - {id: "t26", x: -10.0, y: 13.0, theta: 3.14}  #  Almacen Punto 1
+  - {id: "t27", x: -7.5, y: 15.5, theta: 3.14}   #  Almacen Punto 2
+  - {id: "t28", x: -3.70, y: -3.41, theta: 3.14}   # Pasillo central Punto 1
   
 
 

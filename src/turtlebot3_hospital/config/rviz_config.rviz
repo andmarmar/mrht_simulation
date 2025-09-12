@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /Map1/Status1
         - /Path6/Status1
+        - /Path7
       Splitter Ratio: 0.5
     Tree Height: 719
   - Class: rviz_common/Selection
@@ -73,13 +74,13 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 25; 255; 0
+      Color: 153; 193; 241
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -99,35 +100,15 @@ Visualization Manager:
         Value: /human_1/path
       Value: true
     - Alpha: 1
-      Axes Length: 1
-      Axes Radius: 0.10000000149011612
-      Class: rviz_default_plugins/Pose
-      Color: 25; 255; 0
-      Enabled: true
-      Head Length: 0.30000001192092896
-      Head Radius: 0.10000000149011612
-      Name: Pose
-      Shaft Length: 1
-      Shaft Radius: 0.05000000074505806
-      Shape: Arrow
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        Filter size: 10
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /human_1/set_goal
-      Value: true
-    - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 28; 113; 216
+      Color: 53; 132; 228
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -147,35 +128,15 @@ Visualization Manager:
         Value: /human_2/path
       Value: true
     - Alpha: 1
-      Axes Length: 1
-      Axes Radius: 0.10000000149011612
-      Class: rviz_default_plugins/Pose
-      Color: 28; 113; 216
-      Enabled: true
-      Head Length: 0.30000001192092896
-      Head Radius: 0.10000000149011612
-      Name: Pose
-      Shaft Length: 1
-      Shaft Radius: 0.05000000074505806
-      Shape: Arrow
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        Filter size: 10
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /human_2/set_goal
-      Value: true
-    - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 245; 194; 17
+      Color: 26; 95; 180
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -195,35 +156,15 @@ Visualization Manager:
         Value: /human_3/path
       Value: true
     - Alpha: 1
-      Axes Length: 1
-      Axes Radius: 0.10000000149011612
-      Class: rviz_default_plugins/Pose
-      Color: 245; 194; 17
-      Enabled: true
-      Head Length: 0.30000001192092896
-      Head Radius: 0.10000000149011612
-      Name: Pose
-      Shaft Length: 1
-      Shaft Radius: 0.05000000074505806
-      Shape: Arrow
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        Filter size: 10
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /human_3/set_goal
-      Value: true
-    - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 255; 120; 0
+      Color: 145; 65; 172
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -243,35 +184,15 @@ Visualization Manager:
         Value: /human_4/path
       Value: true
     - Alpha: 1
-      Axes Length: 1
-      Axes Radius: 0.10000000149011612
-      Class: rviz_default_plugins/Pose
-      Color: 255; 120; 0
-      Enabled: true
-      Head Length: 0.30000001192092896
-      Head Radius: 0.10000000149011612
-      Name: Pose
-      Shaft Length: 1
-      Shaft Radius: 0.05000000074505806
-      Shape: Arrow
-      Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        Filter size: 10
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /human_4/set_goal
-      Value: true
-    - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 181; 131; 90
+      Color: 246; 97; 81
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -305,13 +226,13 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 181; 131; 90
+      Color: 224; 27; 36
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -333,13 +254,13 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 181; 131; 90
+      Color: 165; 29; 45
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
       Name: Path
       Offset:
         X: 0
@@ -369,6 +290,18 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /robots_marker_array
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: MarkerArray
+      Namespaces:
+        tasks: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /tasks_marker_array
       Value: true
   Enabled: true
   Global Options:
@@ -416,25 +349,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 53.26365280151367
+      Distance: 36.373775482177734
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.6422033309936523
-        Y: -3.000894784927368
-        Z: 9.158526420593262
+        X: -0.9148569107055664
+        Y: -2.8064327239990234
+        Z: 9.345877647399902
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.4347968101501465
+      Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.030398156493902206
+      Yaw: 6.273582458496094
     Saved: ~
 Window Geometry:
   Displays:
