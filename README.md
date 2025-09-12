@@ -4,7 +4,6 @@
 
 **mrht_simulation** is an advanced simulation environment for studying and developing collaboration between multiple robots and humans in hospital scenarios, using ROS 2 and Gazebo. The main package, **turtlebot3_hospital**, provides the nodes, configurations, and utilities needed to simulate mixed teams of TurtleBot3 robots and human agents in a virtual hospital.
 
----
 
 ## Purpose
 
@@ -14,7 +13,6 @@
 - **Human agent management**: Simulates humans with realistic behaviors and planned routes.
 
 
----
 
 ## Package Structure
 
@@ -23,7 +21,6 @@
 - **turtlebot3_hospital/**: Source code for ROS 2 nodes (planner, task generator, etc).
 - **turtlebot3_hospital_msgs/**: Custom message definitions such as `Task.msg`.
 
----
 
 ## Main Nodes
 
@@ -32,7 +29,6 @@
 - **human_planner**: Node that plans and publishes trajectories for human agents.
 
 
----
 
 ## Other Packages Used
 
@@ -52,7 +48,7 @@ These packages work together to enable realistic simulation, visualization, and 
 In addition to the packages mentioned above (which are included in this repository), you need to install some extra dependencies for all packages to work correctly.
 
 - **HuNavSim dependencies:**  
-  For the human simulation to work, you must clone the [HuNavSim repository](https://github.com/robotics-upo/hunav_sim) and follow the instructions in its 'Dependencies' section to install all required libraries and packages.
+  For the human simulation to work, you must follow the instructions in the 'Dependencies' section in the [HuNavSim repository](https://github.com/robotics-upo/hunav_sim) to install all required libraries and packages.
 
 - **Other ROS 2 dependencies:**  
   Make sure to install all ROS 2 dependencies
@@ -80,23 +76,19 @@ You can send tasks to the system using:
 ros2 topic pub /new_task turtlebot3_hospital_msgs/Task "{id: 't1', x: 1.0, y: 2.0, frame_id: 'map', duration: 10.0, exclusive: 0}"
 ```
 
----
 
 ## Customization
 
 - Edit files in `config/` to change the tasks, parameters of the Turtlebot3 robots or the Rviz2 configuration.
 - Edit the file `agents_hospital.yaml` in `hunav_gazebo_wrapper/scenarios` to change the parameters of the humans. 
 
----
 
 ## Credits and Acknowledgements
 
 This package was created in collaboration with the Department of Systems Engineering and Automation, University of Seville.
 
----
 
 ## Contact
 
 For questions, suggestions, or contributions, contact the repository maintainer or open an issue on GitHub.
 
----
