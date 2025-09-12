@@ -82,6 +82,11 @@ ros2 topic pub /new_task turtlebot3_hospital_msgs/Task "{id: 't1', x: 1.0, y: 2.
 - Edit files in `config/` to change the tasks, parameters of the Turtlebot3 robots or the Rviz2 configuration.
 - Edit the file `agents_hospital.yaml` in `hunav_gazebo_wrapper/scenarios` to change the parameters of the humans. 
 
+## Simulation Demo
+
+**Watch the simulation video here:**  
+[https://www.youtube.com/watch?v=HhHfOMs8SZI](https://www.youtube.com/watch?v=HhHfOMs8SZI)
+
 
 ## Credits and Acknowledgements
 
